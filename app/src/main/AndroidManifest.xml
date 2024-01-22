@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoooCustom"
+        tools:targetApi="31">
+        <activity
+            android:name="com.primemedia.dooocustom.ui.Maintenance"
+            android:exported="false" />
+        <activity
+            android:name="com.primemedia.dooocustom.ui.InAppUpdate"
+            android:exported="false" />
+        <activity
+            android:name="com.primemedia.dooocustom.ui.Downloads"
+            android:exported="false" />
+        <activity
+            android:name="com.primemedia.dooocustom.Dashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.primemedia.dooocustom.ui.registers.LoginSignup"
+            android:exported="false" />
+        <activity
+            android:name="com.primemedia.dooocustom.ui.payments.Subscription"
+            android:exported="false" />
+        <activity
+            android:name="com.primemedia.dooocustom.ui.Splash"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_application_id" />
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="@string/startapp_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="@string/applovin_sdk_key" />
+    </application>
+
+</manifest>

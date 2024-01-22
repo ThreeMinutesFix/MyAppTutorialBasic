@@ -1,0 +1,5 @@
+
+rootProject.name = "DoooCustom"
+include ':app'
+include ':liquid_swipe'
+include ':nativetemplates'

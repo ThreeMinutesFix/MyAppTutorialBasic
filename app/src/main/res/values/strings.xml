@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Digital Gazette</string>
+    <string name="admob_application_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string> <!-- AdMob -->
+    <string name="startapp_app_id" translatable="false">209411604</string> <!-- StartApp -->
+    <string name="facebook_app_id" translatable="false">[APP_ID]</string> <!-- Facebook -->
+    <string name="applovin_sdk_key" translatable="false">XJN4GGfoouR0ry-ZzbBJdb-Vez7ImciQJtenhxKkZ06qryKJvDaM_GGGMbyTF-7z9-MhihRO-cHCeZc2lJVdc_</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string> <!-- Applovin -->
+
+
+</resources>
